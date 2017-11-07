@@ -12,7 +12,7 @@ VocaLogin.usercid = null;
 
 VocaLogin.inputUserInfo = function(arg) {
   var self = this;
-  var params = object.assign({}, {
+  var params = Object.assign({}, {
       userid:"",
       username:"",
       userclass:"",
