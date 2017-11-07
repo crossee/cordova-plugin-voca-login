@@ -26,7 +26,7 @@ VocaLogin.inputUserInfo = function(arg) {
     self.usercid = winParam.usercid;
   },
   function(error) { console.log(error); },
-  "CDVVocaLogin",
+  "VocaLogin",
   "inputUserInfo",
   [
       params.userid,
@@ -42,7 +42,7 @@ VocaLogin.getUserId = function() {
     return winParam;
   },
   function(error) { console.log(error); },
-  "CDVVocaLogin",
+  "VocaLogin",
   "getUserId",
   []
   );
@@ -53,7 +53,7 @@ VocaLogin.getUserName = function() {
     return winParam;
   },
   function(error) { console.log(error); },
-  "CDVVocaLogin",
+  "VocaLogin",
   "getUserName",
   []
   );
@@ -64,7 +64,7 @@ VocaLogin.getUserClass = function() {
     return winParam;
   },
   function(error) { console.log(error); },
-  "CDVVocaLogin",
+  "VocaLogin",
   "getUserClass",
   []
   );
@@ -75,7 +75,7 @@ VocaLogin.getUserCid = function() {
     return winParam;
   },
   function(error) { console.log(error); },
-  "CDVVocaLogin",
+  "VocaLogin",
   "getUserCid",
   []
   );
