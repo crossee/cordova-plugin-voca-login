@@ -14,9 +14,5 @@
 @property NSString* userCid;
 
 - (void) inputUserInfo:(CDVInvokedUrlCommand *)command;
-- (void) getUserId:(CDVInvokedUrlCommand *)command;
-- (void) getUserName:(CDVInvokedUrlCommand *)command;
-- (void) getUserClass:(CDVInvokedUrlCommand *)command;
-- (void) getUserCid:(CDVInvokedUrlCommand *)command;
 
 @end

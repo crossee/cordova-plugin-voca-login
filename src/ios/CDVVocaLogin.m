@@ -29,44 +29,4 @@
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
-- (void) getUserId:(CDVInvokedUrlCommand *)command
-{
-    CDVPluginResult* pluginResult = [ CDVPluginResult
-                                     resultWithStatus    : CDVCommandStatus_OK
-                                     messageAsString     : self.userId
-                                     ];
-
-    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-}
-
-- (void) getUserName:(CDVInvokedUrlCommand *)command
-{
-    CDVPluginResult* pluginResult = [ CDVPluginResult
-                                     resultWithStatus    : CDVCommandStatus_OK
-                                     messageAsString     : self.userName
-                                     ];
-
-    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-}
-
-- (void) getUserClass:(CDVInvokedUrlCommand *)command
-{
-    CDVPluginResult* pluginResult = [ CDVPluginResult
-                                     resultWithStatus    : CDVCommandStatus_OK
-                                     messageAsString     : self.userClass
-                                     ];
-
-    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-}
-
-- (void) getUserCid:(CDVInvokedUrlCommand *)command
-{
-    CDVPluginResult* pluginResult = [ CDVPluginResult
-                                     resultWithStatus    : CDVCommandStatus_OK
-                                     messageAsString     : self.userCid
-                                     ];
-
-    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-}
-
 @end

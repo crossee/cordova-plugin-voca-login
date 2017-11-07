@@ -37,18 +37,7 @@ public class VocaLogin extends CordovaPlugin {
             callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, obj));
             return true;
         }
-        else if(action.equals("getUserId")) {
-            callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, this.userId));
-        }
-        else if(action.equals("getUserName")) {
-            callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, this.userName));
-        }
-        else if(action.equals("getUserClass")) {
-            callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, this.userClass));
-        }
-        else if(action.equals("getUserCid")) {
-            callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, this.userCid));
-        }
+
         return false;
     }
 
