@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-voca-login",
+  "version": "0.0.1",
+  "description": "voca login plugin",
+  "cordova": {
+    "id": "cordova-plugin-voca-login",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crossee/cordova-plugin-voca-login.git"
+  },
+  "keywords": [
+    "cordova",
+    "vocaLogin",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.2.0"
+    }
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
